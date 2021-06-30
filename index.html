@@ -1,0 +1,73 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Examen</title>
+	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="css/examen.css">
+</head>
+<body>
+<center>
+<section id="seccion1">
+<h1>Edad de una persona</h1>
+    <form action="">
+        <label for="edad1" > Ingresa tu edad</label>
+        <input type="text" id="edad1">
+        <input type="button" value="Verificar" onclick="edad(edad1.value)">
+        <div  style="color:red"id="edad"></div>
+        </section>
+        </center>
+    </form>
+    <center>
+    <br>
+    <section id="seccion2">
+    <h1>El mes del año</h1>
+    <form action="">
+        <label for="numero" > Ingresa un numero del 1 al 12</label>
+        <input type="text" id="numero">
+        <input type="button" value="verificar" onclick="mes(numero.value)">
+        <div style="color:red"id="mes"></div>
+        <br>
+        </section>
+        </center>
+    </form>
+    <center>
+    <br>
+    <section id="seccion3">
+    <h1>Calcular iva</h1>
+    <form action="">
+        <label for="cantidad" > Ingresar cantidad</label>
+        <input type="text" id="cantidad">
+        <input type="button" value="Verificar" onclick="iva(cantidad.value)">
+        <div  style="color:red"id="iva"></div>
+        </section>
+        </center>
+    </form>
+    <br>
+    <center>
+    <section id="seccion4">
+    <h1>Logeo de un usuario:</h1>
+	Ingresa el usuario<input type="text" id="user" name="user"/>
+	<br>
+	Ingresa la contraseña<input type="password" id="pass" name="pass"/>
+	<input type="button" name="Calcular" value="Calcular" onclick="validarUsuario(user.value,pass.value);"/>
+	<div id="resultado"></div>
+	</section>
+    </center>
+
+    <br>
+    <center>
+    <section id="seccion5">
+	<h1>Numero factorial:</h1>
+	<label for="fac" > Ingresa un numero</label>
+	<input type="text" id ="fac">
+	<input type ="button" name="Calcular" value="Calcular" onclick="nufac(fac.value)">
+	<div  style="color:red"id="nufac"></div>
+    </section>
+    </center>
+
+
+<script src="js/operaciones.js"></script>	
+</body>
+</html>

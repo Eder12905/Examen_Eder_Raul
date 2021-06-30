@@ -1,0 +1,44 @@
+body{
+	/* background-color: green; */
+	background-image: url(../imagenes/eder.jpg);
+}
+#seccion1{
+	float:center;
+	width: 35%;
+	height: 150px;
+	margin: 0 0 0 10%;
+	background-image:url(../imagenes/eder1.jpg);
+	padding: 10px 10px 10px 10px;
+}
+#seccion2{
+	float:center;
+	width: 35%;
+	height: 150px;
+	margin: 0 0 0 10%;
+	background-image:url(../imagenes/eder1.jpg);
+	padding: 10px 10px 10px 10px;
+}
+#seccion3{
+	float:center;
+	width: 35%;
+	height: 200px;
+	margin: 0 0 0 10%;
+	background-image:url(../imagenes/eder1.jpg);
+	padding: 10px 10px 10px 10px;
+}
+#seccion4{
+	float:center;
+	width: 35%;
+	height: 150px;
+	margin: 0 0 0 10%;
+	background-image:url(../imagenes/eder1.jpg);
+	padding: 10px 10px 10px 10px;
+}
+#seccion5{
+	float:center;
+	width: 35%;
+	height: 150px;
+	margin: 0 0 0 10%;
+	background-image:url(../imagenes/eder1.jpg);
+	padding: 10px 10px 10px 10px;
+}
